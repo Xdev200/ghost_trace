@@ -11,5 +11,11 @@ flutter --version
 echo "Getting dependencies..."
 flutter pub get
 
-echo "Building web..."
+echo "Building app..."
 flutter build web --release
+
+echo "Building info website..."
+cd ../ghost_tracer_web
+npm install
+npm run build
+cd ../ghost_tracer

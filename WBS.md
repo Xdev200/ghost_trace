@@ -1,4 +1,4 @@
-# GhostTrace Work Breakdown Structure (WBS)
+# GhostTracer Work Breakdown Structure (WBS)
 
 ## Phase 1: Foundation [COMPLETE]
 - [x] Define Color Palette (colors.dart)
@@ -69,3 +69,15 @@
 - [x] Add Scroll Reveal and Smooth Scroll interactivity
 - [x] Create Privacy Policy and Terms of Condition pages
 - [x] Configure multi-page build system
+
+### Phase 12: Deployment & Handoff
+- [x] Create Vercel Deployment Guide for Info Website
+- [x] Final verification of production build
+- [x] Generate Play Store listing descriptions
+
+### Phase 13: Store Compliance & Release [COMPLETE]
+- [x] Synchronize Launcher Icon with Store Branding
+- [x] Configure Production Signing with `key.properties`
+- [x] Increment Build Version to `1.0.1+3`
+- [x] Generate Production-Grade Signed AAB (`app-release.aab`)
+- [x] Verify AAB Signature

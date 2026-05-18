@@ -8,13 +8,13 @@ import 'screens/result_screen.dart';
 import 'screens/stats_screen.dart';
 import 'screens/settings_screen.dart';
 
-class GhostTraceApp extends StatelessWidget {
-  const GhostTraceApp({super.key});
+class GhostTracerApp extends StatelessWidget {
+  const GhostTracerApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'GhostTrace',
+      title: 'GhostTracer',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         scaffoldBackgroundColor: AppColors.background,

@@ -1,4 +1,4 @@
-/// Score-to-Title mapping for the GhostTrace progression system.
+/// Score-to-Title mapping for the GhostTracer progression system.
 ///
 /// Titles provide aspirational progression feedback and
 /// map directly to cumulative score thresholds.

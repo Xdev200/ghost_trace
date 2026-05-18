@@ -1,5 +1,5 @@
 
-/// Scoring engine for GhostTrace.
+/// Scoring engine for GhostTracer.
 ///
 /// Implements the PRD formula:
 ///   base_score = path_length × 100

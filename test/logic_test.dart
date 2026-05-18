@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:ghost_trace/logic/scorer.dart';
-import 'package:ghost_trace/logic/title_system.dart';
-import 'package:ghost_trace/logic/sequence_generator.dart';
-import 'package:ghost_trace/services/path_generator.dart';
+import 'package:ghost_tracer/logic/scorer.dart';
+import 'package:ghost_tracer/logic/title_system.dart';
+import 'package:ghost_tracer/logic/sequence_generator.dart';
+import 'package:ghost_tracer/services/path_generator.dart';
 
 void main() {
   group('Scorer Engine Tests', () {

@@ -1,6 +1,6 @@
-# 🎮 GhostTrace — Space-Themed Memory Game
+# 🎮 GhostTracer — Space-Themed Memory Game
 
-GhostTrace is a premium, high-performance Flutter memory game with a sleek "Space & Sky" aesthetic. Memorize the glowing paths, navigate the ghost trails, and trace the sequence perfectly to climb the ranks.
+GhostTracer is a premium, high-performance Flutter memory game with a sleek "Space & Sky" aesthetic. Memorize the glowing paths, navigate the ghost trails, and trace the sequence perfectly to climb the ranks.
 
 ---
 
@@ -15,7 +15,7 @@ Before running the project, ensure you have:
 ---
 
 ### 🌐 Running on Web
-To run GhostTrace in your browser (Chrome is recommended):
+To run GhostTracer in your browser (Chrome is recommended):
 
 1.  **Enable Web Support** (if not already done):
     ```bash
@@ -25,6 +25,28 @@ To run GhostTrace in your browser (Chrome is recommended):
     ```bash
     flutter run -d chrome
     ```
+
+---
+
+### 🏗 Build & Deployment
+
+This project uses a unified build system to manage both the **Flutter App** and the **Info Website**.
+
+#### 1. Build the Entire Suite
+From the `ghost_tracer` root, run:
+```bash
+npm run build
+```
+*This will build the Flutter Web app into `build/web` and the Info Website into `../ghost_tracer_web/dist`.*
+
+#### 2. Build Separately
+- **Flutter Game Only**: `npm run build:app`
+- **Info Website Only**: `npm run build:web`
+
+#### 3. Deploy to Vercel
+Refer to the [Vercel Deployment Guide](./deployment_guide.md) for step-by-step instructions on connecting your repository.
+
+---
 
 ---
 

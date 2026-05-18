@@ -1,0 +1,15 @@
+{
+  "name": "ghost_tracer_orchestrator",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:app": "flutter build web --release",
+    "build:web": "cd ../ghost_tracer_web && npm install && npm run build",
+    "build": "npm run build:app && npm run build:web",
+    "dev:web": "cd ../ghost_tracer_web && npm run dev",
+    "dev:app": "flutter run -d chrome"
+  },
+  "devDependencies": {
+    "vite": "^8.0.10"
+  }
+}
